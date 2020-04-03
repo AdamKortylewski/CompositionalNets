@@ -71,7 +71,7 @@ If you want to test occluder localization run:
 python Code/eval_occlusion_localization.py
 ``` 
 This will output qualitative occlusion localization results for each image and a quantitative analysis over all images 
-in terms of an ROC curve.
+as ROC curve.
 
 ## Referencing CompositionalNets
 
