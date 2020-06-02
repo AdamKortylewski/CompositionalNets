@@ -10,7 +10,7 @@ from PIL import Image
 
 
 def update_clutter_model(net,device_ids,compnet_type='vmf'):
-	idir = 'background_images_for_learning/';
+	idir = 'background_images/';
 	updated_models = torch.zeros((0,vc_num))
 	if device_ids:
 		updated_models = updated_models.cuda(device_ids[0])
