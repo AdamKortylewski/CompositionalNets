@@ -74,7 +74,7 @@ class Net(nn.Module):
 
     # TODO: merge this function with helpers.update_clutter_model
     def get_clutter_model(self, compnet_type, vMF_kappa):
-        idir = 'background_images_for_learning/'
+        idir = 'background_images/'
         vc_num = self.conv1o1.weight.shape[0]
 
         updated_models = torch.zeros((0, vc_num))
