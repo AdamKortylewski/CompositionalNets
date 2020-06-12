@@ -15,7 +15,7 @@ import torchvision.models as models
 ###################
 likely = 0.6  # occlusion likelihood
 occ_levels = ['ZERO', 'ONE', 'FIVE', 'NINE'] # occlusion levels to be evaluated [0%,20-40%,40-60%,60-80%]
-bool_load_pretrained_model = True
+bool_load_pretrained_model = False # False if you want to load initialization (see Initialization_Code/)
 bool_mixture_model_bg = False 	# use maximal mixture model or sum of all mixture models, not so important
 bool_multi_stage_model = False 	# this is an old setup
 

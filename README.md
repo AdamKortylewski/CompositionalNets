@@ -73,6 +73,31 @@ python Code/eval_occlusion_localization.py
 This will output qualitative occlusion localization results for each image and a quantitative analysis over all images 
 as ROC curve.
 
+## Initializing CompositionalNet Parameters
+
+We initialize CompositionalNets (i.e. the vMF kernels and mixture models) by clustering the training data. 
+In particular, we initialize the vMF kernels by clustering the feature vectors:
+
+```
+python Initialization_Code/vMF_clustering.py
+``` 
+
+Furthermore, we initialize the mixture models by EM-type learning.
+The initial cluster assignment for the EM-type learning is computed based on the similarity of the vMF encodings of the training images.
+To compute the similarity matrices use:
+ 
+```
+python Initialization_Code/comptSimMat.py
+``` 
+
+As this process takes some time we provide precomputed similarity matrices [here](https://livejohnshopkins-my.sharepoint.com/:u:/g/personal/akortyl1_jh_edu/EU6OcwaW7l1IhpggHJBCjeIBB_xLd28bDUIcoPHKUOhxqg?e=5k34Nx), you need to copy them into the 'models/init_vgg/' folder.
+Afterwards you can compute the initialization of the mixture models by executing:
+
+```
+python Initialization_Code/Learn_mix_model_vMF_view.py
+```
+
+
 ## Referencing CompositionalNets
 
 Please cite the following paper if you use the code directly or indirectly in your research/projects.
