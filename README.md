@@ -100,7 +100,7 @@ python Initialization_Code/Learn_mix_model_vMF_view.py
 
 ## Referencing CompositionalNets
 
-Please cite the following paper if you use the code directly or indirectly in your research/projects.
+Please cite the following papers if you use the code directly or indirectly in your research projects.
 ```
 @inproceedings{CompNet:CVPR:2020,
 title = {Compositional Convolutional Neural Networks: A Deep Architecture with Innate Robustness to Partial Occlusion},
@@ -110,6 +110,18 @@ month = jun,
 year = {2020},
 month_numeric = {6}
 }
+
+@article{kortylewski2021compositional,
+  title={Compositional convolutional neural networks: A robust and interpretable model for object recognition under occlusion},
+  author={Kortylewski, Adam and Liu, Qing and Wang, Angtian and Sun, Yihong and Yuille, Alan},
+  journal={International Journal of Computer Vision},
+  volume={129},
+  number={3},
+  pages={736--760},
+  year={2021},
+  publisher={Springer}
+}
+
 ```
 
 ## Relation to our Prior Work
