@@ -103,12 +103,12 @@ python Initialization_Code/Learn_mix_model_vMF_view.py
 Please cite the following papers if you use the code directly or indirectly in your research projects.
 ```
 @inproceedings{CompNet:CVPR:2020,
-title = {Compositional Convolutional Neural Networks: A Deep Architecture with Innate Robustness to Partial Occlusion},
-author = {Kortylewski, Adam and He, Ju and Liu, Qing and and Yuille, Alan},
-booktitle = {Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
-month = jun,
-year = {2020},
-month_numeric = {6}
+  title = {Compositional Convolutional Neural Networks: A Deep Architecture with Innate Robustness to Partial Occlusion},
+  author = {Kortylewski, Adam and He, Ju and Liu, Qing and and Yuille, Alan},
+  booktitle = {Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
+  month = jun,
+  year = {2020},
+  month_numeric = {6}
 }
 
 @article{kortylewski2021compositional,
@@ -130,12 +130,12 @@ With very small modifications this code would also enable the learning and testi
 Bernoulli distributions as proposed in our previous work:
   ```
 @inproceedings{Combining:WACV:2020,
-title = {Combining Compositional Models and Deep Networks For Robust Object Classification under Occlusion},
-author = {Kortylewski, Adam and Liu, Qing and Wang, Huiyu and Zhang, Zhishuai and Yuille, Alan},
-booktitle = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
-month = mar,
-year = {2020},
-month_numeric = {3}
+  title = {Combining Compositional Models and Deep Networks For Robust Object Classification under Occlusion},
+  author = {Kortylewski, Adam and Liu, Qing and Wang, Huiyu and Zhang, Zhishuai and Yuille, Alan},
+  booktitle = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  month = mar,
+  year = {2020},
+  month_numeric = {3}
 }
 ```
 
