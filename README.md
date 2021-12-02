@@ -59,7 +59,7 @@ Our demo script classifies the images from the **demo** folder, extracts the pre
 
 #### Evaluate the classification performance of a model
 
-Run the following command from the terminal to evaluate a model on the full test dataset:
+Run the following command in the terminal to evaluate a model on the full test dataset:
 ```
 python Code/test.py 
 ```
